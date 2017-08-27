@@ -1,0 +1,126 @@
+@font-face{
+    font-family: "Bungee";
+    src: url("bungee_regular.ttf") format("truetype");
+}
+
+.patternBase{
+    display: none;
+}
+
+.selectionDiv{
+    margin: 20px;
+    width: 100%;
+    display: inline;
+    overflow: hidden;
+}
+
+.patternEdit{
+   overflow: hidden;
+   display: inline;
+}
+
+
+.patternDisplay{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+}
+
+.selection2{
+    display: inline-block;
+}
+
+.pageTitle{
+    font-family: Bungee;
+    margin-bottom: 0px;
+}
+
+
+#back{
+    padding: 10px;
+    margin: 10px;
+}
+
+#pointsDiv{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 24pt;
+    font-family: Verdana;
+    font-variant: small-caps;
+}
+
+div.tab {
+    overflow: hidden;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+    font-family: verdana;
+}
+
+/* Style the links inside the tab */
+div.tab a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+.selection{
+    display: inline;
+}
+
+
+
+.selectionButton{
+    height: 150px;
+    width: 150px;
+    border-radius: 35px;
+    border: 3px groove grey;
+    margin: 5px;
+    box-shadow: 3px 3px 7px;
+    background-image: linear-gradient(white,lightblue);
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(191,191,191,.9));
+    font-weight: bold;
+}
+
+.priceP{
+    font-family: Lucida Console;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 14pt;
+    margin-top: 0px;
+}
+
+.colorDisplay{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    border: 3px solid black;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<title>Times Tables</title>
+	</head>
+	
+	<body>
+
+		<div id="containerTitle">
+			<h1 class="pageTitle">TIMES TABLES LIST</h1>
+			<a href="index_Main.html"><button class="linkButtons" style="margin-bottom:75px;">Back Home</button></a>
+		</div>
+		<div id="rowContainer">
+			<div class="rows">
+				<a href="index_1.html"><button class="choice">1</button></a>
+				<a href="index_2.html"><button class="choice">2</button></a>
+				<a href="index_3.html"><button class="choice">3</button></a>
+				<a href="index_4.html"><button class="choice">4</button></a>
+				<a href="index_5.html"><button class="choice">5</button></a>
+				<a href="index_6.html"><button class="choice">6</button></a>
+			</div>
+			<div class="rows">
+				<a href="index_7.html"><button class="choice">7</button></a>
+				<a href="index_8.html"><button class="choice">8</button></a>
+				<a href="index_9.html"><button class="choice">9</button></a>
+				<a href="index_10.html"><button class="choice">10</button></a>
+				<a href="index_11.html"><button class="choice">11</button></a>
+				<a href="index_12.html"><button class="choice">12</button></a>
+			</div>
+		</div>
+	</body>
+	<script>
+
+		var setColor = localStorage.currentColor;
+    	$("body").css("background-color", setColor);
+
+    	if (setColor.toLowerCase() == "black"){
+       		$("body").css("color", "white");
+    	}
+
+	</script>
+</html>

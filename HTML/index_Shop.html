@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>$$$ SHOP $$$</title>
+		<link rel="stylesheet" type="text/css" href="../shop_style.css">
+		<script type="text/javascript" src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="../JavaScript/shop_script.js"></script>
+		<script type="text/javascript" src="../Javascript/jquery-ui.min.js"></script>
+	</head>
+	
+	<body>
+		<center>
+			<h1 class="pageTitle">$$$ SHOP $$$</h1>
+			<div id="menu">
+				<a href="index_Main.html"><button id="back">Back Home</button></a>
+			</div>
+			<div id="pointsDiv"></div>
+		</center>
+		<div class="tab">
+	  		<a href="javascript:void(0)" class="tablinks" onclick="openCat(event, 'bkgrdColors')">Background Colors</a>
+	  		<a href="javascript:void(0)" class="tablinks" onclick="openCat(event, 'bkgrdPatterns')">Background Patterns</a>
+	  		<a href="javascript:void(0)" class="tablinks" onclick="openCat(event, 'textColors')">Text Colors</a>
+		</div>
+
+		<div id="bkgrdColors" class="tabcontent">
+		  
+		 	<div class="selection">
+		 		 <button class='selectionButton' data-hex='#F0F8FF' data-color='AliceBlue'><center><div class='colorDisplay' style='background-color:AliceBlue'></div></center><p>AliceBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FAEBD7' data-color='AntiqueWhite'><center><div class='colorDisplay' style='background-color:AntiqueWhite'></div></center><p>AntiqueWhite</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00FFFF' data-color='Aqua'><center><div class='colorDisplay' style='background-color:Aqua'></div></center><p>Aqua</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#7FFFD4' data-color='Aquamarine'><center><div class='colorDisplay' style='background-color:Aquamarine'></div></center><p>Aquamarine</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F0FFFF' data-color='Azure'><center><div class='colorDisplay' style='background-color:Azure'></div></center><p>Azure</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F5F5DC' data-color='Beige'><center><div class='colorDisplay' style='background-color:Beige'></div></center><p>Beige</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFE4C4' data-color='Bisque'><center><div class='colorDisplay' style='background-color:Bisque'></div></center><p>Bisque</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#000000' data-color='Black'><center><div class='colorDisplay' style='background-color:Black'></div></center><p>Black</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFEBCD' data-color='BlanchedAlmond'><center><div class='colorDisplay' style='background-color:BlanchedAlmond'></div></center><p>BlanchedAlmond</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#0000FF' data-color='Blue'><center><div class='colorDisplay' style='background-color:Blue'></div></center><p>Blue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#8A2BE2' data-color='BlueViolet'><center><div class='colorDisplay' style='background-color:BlueViolet'></div></center><p>BlueViolet</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#A52A2A' data-color='Brown'><center><div class='colorDisplay' style='background-color:Brown'></div></center><p>Brown</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DEB887' data-color='BurlyWood'><center><div class='colorDisplay' style='background-color:BurlyWood'></div></center><p>BurlyWood</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#5F9EA0' data-color='CadetBlue'><center><div class='colorDisplay' style='background-color:CadetBlue'></div></center><p>CadetBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#7FFF00' data-color='Chartreuse'><center><div class='colorDisplay' style='background-color:Chartreuse'></div></center><p>Chartreuse</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#D2691E' data-color='Chocolate'><center><div class='colorDisplay' style='background-color:Chocolate'></div></center><p>Chocolate</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF7F50' data-color='Coral'><center><div class='colorDisplay' style='background-color:Coral'></div></center><p>Coral</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#6495ED' data-color='CornflowerBlue'><center><div class='colorDisplay' style='background-color:CornflowerBlue'></div></center><p>CornflowerBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFF8DC' data-color='Cornsilk'><center><div class='colorDisplay' style='background-color:Cornsilk'></div></center><p>Cornsilk</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DC143C' data-color='Crimson'><center><div class='colorDisplay' style='background-color:Crimson'></div></center><p>Crimson</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00FFFF' data-color='Cyan'><center><div class='colorDisplay' style='background-color:Cyan'></div></center><p>Cyan</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00008B' data-color='DarkBlue'><center><div class='colorDisplay' style='background-color:DarkBlue'></div></center><p>DarkBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#008B8B' data-color='DarkCyan'><center><div class='colorDisplay' style='background-color:DarkCyan'></div></center><p>DarkCyan</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#B8860B' data-color='DarkGoldenRod'><center><div class='colorDisplay' style='background-color:DarkGoldenRod'></div></center><p>DarkGoldenRod</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#A9A9A9' data-color='DarkGrey'><center><div class='colorDisplay' style='background-color:DarkGrey'></div></center><p>DarkGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#006400' data-color='DarkGreen'><center><div class='colorDisplay' style='background-color:DarkGreen'></div></center><p>DarkGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#BDB76B' data-color='DarkKhaki'><center><div class='colorDisplay' style='background-color:DarkKhaki'></div></center><p>DarkKhaki</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#8B008B' data-color='DarkMagenta'><center><div class='colorDisplay' style='background-color:DarkMagenta'></div></center><p>DarkMagenta</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#556B2F' data-color='DarkOliveGreen'><center><div class='colorDisplay' style='background-color:DarkOliveGreen'></div></center><p>DarkOliveGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF8C00' data-color='DarkOrange'><center><div class='colorDisplay' style='background-color:DarkOrange'></div></center><p>DarkOrange</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#9932CC' data-color='DarkOrchid'><center><div class='colorDisplay' style='background-color:DarkOrchid'></div></center><p>DarkOrchid</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#8B0000' data-color='DarkRed'><center><div class='colorDisplay' style='background-color:DarkRed'></div></center><p>DarkRed</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#E9967A' data-color='DarkSalmon'><center><div class='colorDisplay' style='background-color:DarkSalmon'></div></center><p>DarkSalmon</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#8FBC8F' data-color='DarkSeaGreen'><center><div class='colorDisplay' style='background-color:DarkSeaGreen'></div></center><p>DarkSeaGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#483D8B' data-color='DarkSlateBlue'><center><div class='colorDisplay' style='background-color:DarkSlateBlue'></div></center><p>DarkSlateBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#2F4F4F' data-color='DarkSlateGrey'><center><div class='colorDisplay' style='background-color:DarkSlateGrey'></div></center><p>DarkSlateGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00CED1' data-color='DarkTurquoise'><center><div class='colorDisplay' style='background-color:DarkTurquoise'></div></center><p>DarkTurquoise</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#9400D3' data-color='DarkViolet'><center><div class='colorDisplay' style='background-color:DarkViolet'></div></center><p>DarkViolet</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF1493' data-color='DeepPink'><center><div class='colorDisplay' style='background-color:DeepPink'></div></center><p>DeepPink</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00BFFF' data-color='DeepSkyBlue'><center><div class='colorDisplay' style='background-color:DeepSkyBlue'></div></center><p>DeepSkyBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#696969' data-color='DimGrey'><center><div class='colorDisplay' style='background-color:DimGrey'></div></center><p>DimGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#1E90FF' data-color='DodgerBlue'><center><div class='colorDisplay' style='background-color:DodgerBlue'></div></center><p>DodgerBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#B22222' data-color='FireBrick'><center><div class='colorDisplay' style='background-color:FireBrick'></div></center><p>FireBrick</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFAF0' data-color='FloralWhite'><center><div class='colorDisplay' style='background-color:FloralWhite'></div></center><p>FloralWhite</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#228B22' data-color='ForestGreen'><center><div class='colorDisplay' style='background-color:ForestGreen'></div></center><p>ForestGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF00FF' data-color='Fuchsia'><center><div class='colorDisplay' style='background-color:Fuchsia'></div></center><p>Fuchsia</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DCDCDC' data-color='Gainsboro'><center><div class='colorDisplay' style='background-color:Gainsboro'></div></center><p>Gainsboro</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F8F8FF' data-color='GhostWhite'><center><div class='colorDisplay' style='background-color:GhostWhite'></div></center><p>GhostWhite</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFD700' data-color='Gold'><center><div class='colorDisplay' style='background-color:Gold'></div></center><p>Gold</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DAA520' data-color='GoldenRod'><center><div class='colorDisplay' style='background-color:GoldenRod'></div></center><p>GoldenRod</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#808080' data-color='Grey'><center><div class='colorDisplay' style='background-color:Grey'></div></center><p>Grey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#008000' data-color='Green'><center><div class='colorDisplay' style='background-color:Green'></div></center><p>Green</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#ADFF2F' data-color='GreenYellow'><center><div class='colorDisplay' style='background-color:GreenYellow'></div></center><p>GreenYellow</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F0FFF0' data-color='HoneyDew'><center><div class='colorDisplay' style='background-color:HoneyDew'></div></center><p>HoneyDew</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF69B4' data-color='HotPink'><center><div class='colorDisplay' style='background-color:HotPink'></div></center><p>HotPink</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#CD5C5C' data-color='IndianRed'><center><div class='colorDisplay' style='background-color:IndianRed'></div></center><p>IndianRed</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#4B0082' data-color='Indigo'><center><div class='colorDisplay' style='background-color:Indigo'></div></center><p>Indigo</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFFF0' data-color='Ivory'><center><div class='colorDisplay' style='background-color:Ivory'></div></center><p>Ivory</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F0E68C' data-color='Khaki'><center><div class='colorDisplay' style='background-color:Khaki'></div></center><p>Khaki</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#E6E6FA' data-color='Lavender'><center><div class='colorDisplay' style='background-color:Lavender'></div></center><p>Lavender</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFF0F5' data-color='LavenderBlush'><center><div class='colorDisplay' style='background-color:LavenderBlush'></div></center><p>LavenderBlush</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#7CFC00' data-color='LawnGreen'><center><div class='colorDisplay' style='background-color:LawnGreen'></div></center><p>LawnGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFACD' data-color='LemonChiffon'><center><div class='colorDisplay' style='background-color:LemonChiffon'></div></center><p>LemonChiffon</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#ADD8E6' data-color='LightBlue'><center><div class='colorDisplay' style='background-color:LightBlue'></div></center><p>LightBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F08080' data-color='LightCoral'><center><div class='colorDisplay' style='background-color:LightCoral'></div></center><p>LightCoral</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#E0FFFF' data-color='LightCyan'><center><div class='colorDisplay' style='background-color:LightCyan'></div></center><p>LightCyan</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FAFAD2' data-color='LightGoldenRodYellow'><center><div class='colorDisplay' style='background-color:LightGoldenRodYellow'></div></center><p>LightGoldenRodYellow</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#D3D3D3' data-color='LightGrey'><center><div class='colorDisplay' style='background-color:LightGrey'></div></center><p>LightGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#90EE90' data-color='LightGreen'><center><div class='colorDisplay' style='background-color:LightGreen'></div></center><p>LightGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFB6C1' data-color='LightPink'><center><div class='colorDisplay' style='background-color:LightPink'></div></center><p>LightPink</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFA07A' data-color='LightSalmon'><center><div class='colorDisplay' style='background-color:LightSalmon'></div></center><p>LightSalmon</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#20B2AA' data-color='LightSeaGreen'><center><div class='colorDisplay' style='background-color:LightSeaGreen'></div></center><p>LightSeaGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#87CEFA' data-color='LightSkyBlue'><center><div class='colorDisplay' style='background-color:LightSkyBlue'></div></center><p>LightSkyBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#778899' data-color='LightSlateGrey'><center><div class='colorDisplay' style='background-color:LightSlateGrey'></div></center><p>LightSlateGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#B0C4DE' data-color='LightSteelBlue'><center><div class='colorDisplay' style='background-color:LightSteelBlue'></div></center><p>LightSteelBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFFE0' data-color='LightYellow'><center><div class='colorDisplay' style='background-color:LightYellow'></div></center><p>LightYellow</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00FF00' data-color='Lime'><center><div class='colorDisplay' style='background-color:Lime'></div></center><p>Lime</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#32CD32' data-color='LimeGreen'><center><div class='colorDisplay' style='background-color:LimeGreen'></div></center><p>LimeGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FAF0E6' data-color='Linen'><center><div class='colorDisplay' style='background-color:Linen'></div></center><p>Linen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF00FF' data-color='Magenta'><center><div class='colorDisplay' style='background-color:Magenta'></div></center><p>Magenta</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#800000' data-color='Maroon'><center><div class='colorDisplay' style='background-color:Maroon'></div></center><p>Maroon</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#66CDAA' data-color='MediumAquaMarine'><center><div class='colorDisplay' style='background-color:MediumAquaMarine'></div></center><p>MediumAquaMarine</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#0000CD' data-color='MediumBlue'><center><div class='colorDisplay' style='background-color:MediumBlue'></div></center><p>MediumBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#BA55D3' data-color='MediumOrchid'><center><div class='colorDisplay' style='background-color:MediumOrchid'></div></center><p>MediumOrchid</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#9370DB' data-color='MediumPurple'><center><div class='colorDisplay' style='background-color:MediumPurple'></div></center><p>MediumPurple</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#3CB371' data-color='MediumSeaGreen'><center><div class='colorDisplay' style='background-color:MediumSeaGreen'></div></center><p>MediumSeaGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#7B68EE' data-color='MediumSlateBlue'><center><div class='colorDisplay' style='background-color:MediumSlateBlue'></div></center><p>MediumSlateBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00FA9A' data-color='MediumSpringGreen'><center><div class='colorDisplay' style='background-color:MediumSpringGreen'></div></center><p>MediumSpringGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#48D1CC' data-color='MediumTurquoise'><center><div class='colorDisplay' style='background-color:MediumTurquoise'></div></center><p>MediumTurquoise</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#C71585' data-color='MediumVioletRed'><center><div class='colorDisplay' style='background-color:MediumVioletRed'></div></center><p>MediumVioletRed</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#191970' data-color='MidnightBlue'><center><div class='colorDisplay' style='background-color:MidnightBlue'></div></center><p>MidnightBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F5FFFA' data-color='MintCream'><center><div class='colorDisplay' style='background-color:MintCream'></div></center><p>MintCream</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFE4E1' data-color='MistyRose'><center><div class='colorDisplay' style='background-color:MistyRose'></div></center><p>MistyRose</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFE4B5' data-color='Moccasin'><center><div class='colorDisplay' style='background-color:Moccasin'></div></center><p>Moccasin</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFDEAD' data-color='NavajoWhite'><center><div class='colorDisplay' style='background-color:NavajoWhite'></div></center><p>NavajoWhite</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#000080' data-color='Navy'><center><div class='colorDisplay' style='background-color:Navy'></div></center><p>Navy</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FDF5E6' data-color='OldLace'><center><div class='colorDisplay' style='background-color:OldLace'></div></center><p>OldLace</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#808000' data-color='Olive'><center><div class='colorDisplay' style='background-color:Olive'></div></center><p>Olive</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#6B8E23' data-color='OliveDrab'><center><div class='colorDisplay' style='background-color:OliveDrab'></div></center><p>OliveDrab</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFA500' data-color='Orange'><center><div class='colorDisplay' style='background-color:Orange'></div></center><p>Orange</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF4500' data-color='OrangeRed'><center><div class='colorDisplay' style='background-color:OrangeRed'></div></center><p>OrangeRed</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DA70D6' data-color='Orchid'><center><div class='colorDisplay' style='background-color:Orchid'></div></center><p>Orchid</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#EEE8AA' data-color='PaleGoldenRod'><center><div class='colorDisplay' style='background-color:PaleGoldenRod'></div></center><p>PaleGoldenRod</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#98FB98' data-color='PaleGreen'><center><div class='colorDisplay' style='background-color:PaleGreen'></div></center><p>PaleGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#AFEEEE' data-color='PaleTurquoise'><center><div class='colorDisplay' style='background-color:PaleTurquoise'></div></center><p>PaleTurquoise</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DB7093' data-color='PaleVioletRed'><center><div class='colorDisplay' style='background-color:PaleVioletRed'></div></center><p>PaleVioletRed</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFEFD5' data-color='PapayaWhip'><center><div class='colorDisplay' style='background-color:PapayaWhip'></div></center><p>PapayaWhip</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFDAB9' data-color='PeachPuff'><center><div class='colorDisplay' style='background-color:PeachPuff'></div></center><p>PeachPuff</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#CD853F' data-color='Peru'><center><div class='colorDisplay' style='background-color:Peru'></div></center><p>Peru</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFC0CB' data-color='Pink'><center><div class='colorDisplay' style='background-color:Pink'></div></center><p>Pink</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#DDA0DD' data-color='Plum'><center><div class='colorDisplay' style='background-color:Plum'></div></center><p>Plum</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#B0E0E6' data-color='PowderBlue'><center><div class='colorDisplay' style='background-color:PowderBlue'></div></center><p>PowderBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#800080' data-color='Purple'><center><div class='colorDisplay' style='background-color:Purple'></div></center><p>Purple</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#663399' data-color='RebeccaPurple'><center><div class='colorDisplay' style='background-color:RebeccaPurple'></div></center><p>RebeccaPurple</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF0000' data-color='Red'><center><div class='colorDisplay' style='background-color:Red'></div></center><p>Red</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#BC8F8F' data-color='RosyBrown'><center><div class='colorDisplay' style='background-color:RosyBrown'></div></center><p>RosyBrown</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#4169E1' data-color='RoyalBlue'><center><div class='colorDisplay' style='background-color:RoyalBlue'></div></center><p>RoyalBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#8B4513' data-color='SaddleBrown'><center><div class='colorDisplay' style='background-color:SaddleBrown'></div></center><p>SaddleBrown</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FA8072' data-color='Salmon'><center><div class='colorDisplay' style='background-color:Salmon'></div></center><p>Salmon</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F4A460' data-color='SandyBrown'><center><div class='colorDisplay' style='background-color:SandyBrown'></div></center><p>SandyBrown</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#2E8B57' data-color='SeaGreen'><center><div class='colorDisplay' style='background-color:SeaGreen'></div></center><p>SeaGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFF5EE' data-color='SeaShell'><center><div class='colorDisplay' style='background-color:SeaShell'></div></center><p>SeaShell</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#A0522D' data-color='Sienna'><center><div class='colorDisplay' style='background-color:Sienna'></div></center><p>Sienna</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#C0C0C0' data-color='Silver'><center><div class='colorDisplay' style='background-color:Silver'></div></center><p>Silver</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#87CEEB' data-color='SkyBlue'><center><div class='colorDisplay' style='background-color:SkyBlue'></div></center><p>SkyBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#6A5ACD' data-color='SlateBlue'><center><div class='colorDisplay' style='background-color:SlateBlue'></div></center><p>SlateBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#708090' data-color='SlateGrey'><center><div class='colorDisplay' style='background-color:SlateGrey'></div></center><p>SlateGrey</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFAFA' data-color='Snow'><center><div class='colorDisplay' style='background-color:Snow'></div></center><p>Snow</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#00FF7F' data-color='SpringGreen'><center><div class='colorDisplay' style='background-color:SpringGreen'></div></center><p>SpringGreen</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#4682B4' data-color='SteelBlue'><center><div class='colorDisplay' style='background-color:SteelBlue'></div></center><p>SteelBlue</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#D2B48C' data-color='Tan'><center><div class='colorDisplay' style='background-color:Tan'></div></center><p>Tan</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#008080' data-color='Teal'><center><div class='colorDisplay' style='background-color:Teal'></div></center><p>Teal</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#D8BFD8' data-color='Thistle'><center><div class='colorDisplay' style='background-color:Thistle'></div></center><p>Thistle</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FF6347' data-color='Tomato'><center><div class='colorDisplay' style='background-color:Tomato'></div></center><p>Tomato</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#40E0D0' data-color='Turquoise'><center><div class='colorDisplay' style='background-color:Turquoise'></div></center><p>Turquoise</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#EE82EE' data-color='Violet'><center><div class='colorDisplay' style='background-color:Violet'></div></center><p>Violet</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F5DEB3' data-color='Wheat'><center><div class='colorDisplay' style='background-color:Wheat'></div></center><p>Wheat</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFFFF' data-color='White'><center><div class='colorDisplay' style='background-color:White'></div></center><p>White</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#F5F5F5' data-color='WhiteSmoke'><center><div class='colorDisplay' style='background-color:WhiteSmoke'></div></center><p>WhiteSmoke</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#FFFF00' data-color='Yellow'><center><div class='colorDisplay' style='background-color:Yellow'></div></center><p>Yellow</p><p class='priceP'>10 points</p></button>
+				 <button class='selectionButton' data-hex='#9ACD32' data-color='YellowGreen'><center><div class='colorDisplay' style='background-color:YellowGreen'></div></center><p>YellowGreen</p><p class='priceP'>10 points</p></button>
+			</div>
+		</div>
+
+		<div id="bkgrdPatterns" class="tabcontent"><!--
+
+			<div class="selection2">
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='90' height='30'>
+						<rect width='90' height='30' fill='#00a9f1'/>
+						<rect width='90' height='18' fill='#26baf4'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit">
+						<h3 class="patternName">Horizontal Stripes</h3>
+						<select class="drop1"></select>
+						<select class="drop2"></select>
+					</div>
+					
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='70' height='70'>
+						<rect width='70' height='70' fill='#bbd817'/>
+						<g transform='rotate(45)'>
+							<rect width='99' height='25' fill='#a9ce00'/>
+							<rect y='-50' width='99' height='25' fill='#a9ce00'/>
+						</g>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Angled Stripes</h3></div>
+				</div>
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='56' height='100'>
+						<rect width='56' height='100' fill='#f8d203'/>
+						<path d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='#fff629' stroke-width='2'/>
+						<path d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='#ffe503' stroke-width='2'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Honeycomb</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='60' height='30'>
+						<defs>
+							<rect id='r' width='30' height='15' fill='#bb085f' stroke-width='2.5' stroke='#7a054d'/>
+							<g id='p'>
+								<use xlink:href='#r'/>
+								<use y='15' xlink:href='#r'/>
+								<use y='30' xlink:href='#r'/>
+								<use y='45' xlink:href='#r'/>
+							</g>
+						</defs>
+						<use xlink:href='#p' transform='translate(0 -25) skewY(40)'/>
+						<use xlink:href='#p' transform='translate(30 0) skewY(-40)'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Chevrons</h3></div>
+				</div>
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='15' height='15'>
+						<rect width='50' height='50' fill='#282828'/>
+						<circle cx='3' cy='4.3' r='1.8' fill='#393939'/>
+						<circle cx='3' cy='3' r='1.8' fill='black'/>
+						<circle cx='10.5' cy='12.5' r='1.8' fill='#393939'/>
+						<circle cx='10.5' cy='11.3' r='1.8' fill='black'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Carbon Fiber</h3></div>
+				</div>
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='20' height='20'>
+						<rect width='40' height='40' fill='#8a3'/>
+						<circle r='9.2' stroke-width='1' stroke='#613' fill='none'/>
+						<circle cy='18.4' r='9.2' stroke-width='1px' stroke='#613' fill='none'/>
+						<circle cx='18.4' cy='18.4' r='9.2' stroke-width='1' stroke='#613' fill='none'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Microbial Mat</h3></div>
+				</div>
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='8' height='8'>
+						<path d='M-2 10L10 -2ZM10 6L6 10ZM-2 2L2 -2' stroke='#222' stroke-width='4.5'/>
+					</svg>
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'>
+						<linearGradient id='g' x2='1' y2='1'>
+						<stop stop-color='#F19'/>
+						<stop offset='100%' stop-color='#0CF'/>
+						</linearGradient>
+						<rect width='100%' height='100%' fill='url(#g)'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Dance</h3></div>
+					
+				</div>
+					
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='60' height='60'>
+						<rect width='60' height='60' fill='#fff'/>
+						<rect width='42.42' height='42.42' transform='translate(30 0) rotate(45)' fill='#444'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Checkerboard</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='75' height='100'>
+						<rect width='75' height='100' fill='slategray'/>
+						<circle cx='75' cy='50' r='28.3%' stroke-width='12' stroke='#9aa6b2' fill='none'/>
+						<circle cx='0' r='28.3%' stroke-width='12' stroke='#9aa6b2' fill='none'/>
+						<circle cy='100' r='28.3%' stroke-width='12' stroke='#9aa6b2' fill='none'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Waves</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='50' height='90'>
+					<rect width='50' height='90' fill='grey'/>
+					<rect x='25' width='25' height='90' fill='#ccc'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Vertical Stripes</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='80' height='80'>
+						<rect width='80' height='80' fill='#9ba7b4'/>
+						<circle cx='40' cy='40' r='40' fill='#def'/>
+						<path d='M0 40 A40 40 45 0 0 40 0 A40 40 315 0 0 80 40 A40 40 45 0 0 40 80 A40 40 270 0 0 0 40Z' fill='#9ba7b4'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Shippo</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='15' height='15'>
+						<rect width='15' height='15' fill='#4f638d'/>
+						<path d='M0 15L7.5 0L15 15Z' fill='#303355'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Half-rombes</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='20' height='20'>
+						<rect width='20' height='20' fill='#fff'/>
+						<rect width='10' height='10' fill='#ccc'/>
+						<rect x='10' y='10' width='10' height='10' fill='#ccc'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Transparent</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='90' height='9'>
+						<rect width='90' height='9' fill='#f2f2f2'/>
+						<rect width='90' height='2' fill='#e7e7e7'/>
+						<rect y='2' width='90' height='3' fill='#ececec'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Simple Horizontal</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='6' height='6'>
+						<rect width='6' height='6' fill='#eee'/>
+						<g id='c'>
+						<rect width='3' height='3' fill='#e6e6e6'/>
+						<rect y='1' width='3' height='2' fill='#d8d8d8'/>
+						</g>
+						<use xlink:href='#c' x='3' y='3'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>White Carbon</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='8' height='8'>
+						<rect width='8' height='8' fill='#403c3f'/>
+						<path d='M0 0L8 8ZM8 0L0 8Z' stroke-width='1' stroke='#1e292d'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Cross Stripes</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='5' height='5'>
+						<rect width='5' height='5' fill='#fff'/>
+						<rect width='1' height='1' fill='#ccc'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Subtle Dots</h3></div>
+				</div>
+
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='5' height='5'>
+						<rect width='5' height='5' fill='#9e9e9e'/>
+						<path d='M0 5L5 0ZM6 4L4 6ZM-1 1L1 -1Z' stroke='#888' stroke-width='1'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Thin Stripes</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='500' height='500'>
+						<filter id='n'>
+							<feTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='10' stitchTiles='stitch'/>
+							</filter>
+						<rect width='500' height='500' fill='#000'/>
+						<rect width='500' height='500' filter="url(#n)" opacity='0.4'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Speckled Noise</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='100' height='100'>
+					<rect width='100' height='100' fill='#269'/>
+						<g fill='#6494b7'>
+							<rect width='100' height='1' y='20'/>
+							<rect width='100' height='1' y='40'/>
+							<rect width='100' height='1' y='60'/>
+							<rect width='100' height='1' y='80'/>
+							<rect width='1' height='100' x='20'/>
+							<rect width='1' height='100' x='40'/>
+							<rect width='1' height='100' x='60'/>
+							<rect width='1' height='100' x='80'/>
+						</g>
+					<rect width='100' height='100' fill='none' stroke-width='2' stroke='#fff'/>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Blueprint Grid</h3></div>
+				</div>
+				
+				<div class="selectionDiv">
+					<svg class="patternBase" xmlns='http://www.w3.org/2000/svg' width='60' height='90'>
+						<g transform='scale(1 1.5)'>
+							<rect width='99' height='99' fill='#6d695c'/>
+							<rect width='42.42' height='42.42' transform='translate(30 0) rotate(45)' fill='#625f53'/>
+							<rect width='99' height='1' transform='rotate(45)' fill='#716f64'/>
+							<rect width='99' height='1' transform='translate(0 60) rotate(-45)' fill='#716f64'/>
+						</g>
+					</svg>
+					<div class="patternDisplay"></div>
+					<div class="patternEdit"><h3 class='patternName'>Argyle</h3></div>
+				</div>
+
+			</div>	
+		
+
+		--><h1>Coming Soon!</h1></div>
+
+		<div id="textColors" class="tabcontent">
+		  <h1>Coming Soon!</h1>
+		</div>
+	</body>
+
+	<script>
+		
+		function openCat(evt, tabName) {
+		    // Declare all variables
+		    var i, tabcontent, tablinks;
+
+		    // Get all elements with class="tabcontent" and hide them
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+
+		    // Get all elements with class="tablinks" and remove the class "active"
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+
+		    // Show the current tab, and add an "active" class to the link that opened the tab
+		    document.getElementById(tabName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+	</script>
+	
+</html>

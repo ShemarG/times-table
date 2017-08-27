@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<script src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<title>Times Table Practice</title>
+	</head>
+	
+	<body>	
+		
+		<center>
+			<h1 class="pageTitle">Times Tables Practice</h1>
+			<div id="pointsDiv"></div>
+			<a class="mainlinks" href="index_Order.html"><button class="pick">
+				<h1 class="mainButtonsTitle">Times Tables</h1><p class="instr">Regular Times Tables from 1 to 12. Each time you go up to 12 you gain some points.</p>
+			</button></a> <br>
+		
+			<a class="mainlinks" href="index_Random.html"><button class="pick">
+				<h1 class="mainButtonsTitle">Random Multiples</h1><p class="instr">Random Time tables from 1 to 12, you gain a point for each answer you get correct, but lose everything if you get something wrong. You get more points for a longer streak.</p>
+			</button></a> <br>
+			
+			<a class="mainlinks" href="index_Shop.html"><button class="pick">
+				<h1 class="mainButtonsTitle">Shop</h1><p class="instr">Buy decorations with your hard earned points.</p>
+			</button></a>
+		</center>
+
+	</body>
+	<script>
+			$(".instr").hide();
+
+			if (localStorage.currentColor === undefined){
+				localStorage.currentColor = "White";
+			}else{}
+
+			if (localStorage.currentHex === undefined){
+				localStorage.currentHex = "FFFFFF";
+			}else{}
+
+			if (localStorage.points === undefined){
+				localStorage.points = 0;
+			}else{}
+
+			if (localStorage.savedColors === undefined){
+				var colorsArray = [];
+				colorsArray.push("White");
+				localStorage.setItem("savedColors", JSON.stringify(colorsArray));
+				var storedColors = JSON.parse(localStorage.savedColors);
+				
+			}else{}
+    		    
+    		console.log(storedColors);
+
+    		var setColor = localStorage.currentColor;
+    		$("body").css("background-color", setColor);
+
+    		if (setColor.toLowerCase() == "black"){
+        		$("body").css("color", "white");
+    		}
+
+    		$(".mainlinks").mouseenter(function(){
+    				$(this).find("p").stop(true, true).show(500);
+    			}).mouseleave(function(){	
+    				$(this).find("p").stop(true, true).hide(500);
+    			})
+
+			document.getElementById('pointsDiv').innerHTML = "Points: " + localStorage.points;
+	</script>
+</html>

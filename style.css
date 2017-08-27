@@ -1,0 +1,105 @@
+#container1{
+	height: 100px;
+	width: 400px;
+	border: 4px inset black;
+	border-radius: 100px;
+	padding: 5px;
+	margin-top: 30px;
+	padding: 50px;
+	text-align: center;
+	background-color: white;
+}
+
+@font-face{
+	font-family: "Bungee";
+	src: url("bungee_regular.ttf") format("truetype");
+}
+
+.pageTitle{
+	font-family: Bungee;
+	margin-bottom: 0px;
+	font-size: 30pt;
+}
+
+.mainButtonsTitle{
+	font-variant: small-caps;
+}
+
+#pointsDiv{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    font-family: Verdana;
+    font-variant: small-caps;
+}
+
+.linkButtons{
+	padding: 10px;
+	font-variant: small-caps;
+}
+
+#container2{
+	height: 100px;
+	width: 400px;
+	text-align: center;
+}
+
+#response{
+	text-align: center;
+}
+
+#entry{
+	height: 20px;
+	border-radius: 7px;
+}
+.rows{
+	text-align: center;
+}
+.choice{
+	padding: 10px;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	font-size: 24pt;
+	transition: 0.5s;
+	background: linear-gradient(white, lightgrey);
+}
+
+a button.choice:hover{
+	background: linear-gradient(white, cyan);
+	border: 1px black solid;
+	border-radius: 25px;
+	box-shadow: 4px 4px 7px black inset;
+	
+}
+
+#containerTitle{
+	text-align: center;
+}
+
+#rowContainer{
+	margin-top: 50px;
+}
+
+.pick{
+	padding: 10px;
+	margin-top: 40px;
+	width: 500px;
+	border-radius: 20px;
+	border: 2px black solid;
+	box-shadow: 0px 3px 10px;
+	background: linear-gradient(white, lightgrey);
+}
+.mainlinks button.pick:hover{
+    transition: 2s;
+    background: linear-gradient(white, cyan);
+    box-shadow: 3px 3px 15px black inset;
+}
+
+input{
+	text-align: center;
+}
+
+#pointsDiv{
+	margin-top: 10px;
+}
